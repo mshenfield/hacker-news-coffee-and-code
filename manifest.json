@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Hacker News Coffee And Conversation",
+  "version": "0.1.0",
+  "description": "Follow a conversation between two users on Hacker News",
+  "content_scripts": [{
+    "matches": [
+      "https://news.ycombinator.com/item?id=*"
+    ],
+    "js": ["content.js"]
+  }]
+}
